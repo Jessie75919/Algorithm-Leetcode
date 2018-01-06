@@ -29,4 +29,5 @@ for (let i = 0 ; i < numLength; i++)
     }
 
     console.log(" last : " + num);
+
 }
