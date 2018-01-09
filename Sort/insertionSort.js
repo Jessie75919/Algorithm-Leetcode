@@ -41,7 +41,7 @@ function insertionSortAsc(num) {
             var rightIndex = 0;
             var temp = 0;
             // search the number bigger than me
-            rightIndex = i - j
+            rightIndex = i - j;
             // console.log("i = " + i);
             if (num[rightIndex] >= num[rightIndex+1]) {
                 temp = num[rightIndex+1];
