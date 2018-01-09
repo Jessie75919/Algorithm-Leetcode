@@ -33,6 +33,8 @@ var persons = [
 ];
 
 
+// insertionSortAsc(num);
+// console.log(num);
 function insertionSortAsc(num) {
     for (var i = 0; i < num.length; i++) {
         for (var j = 1; j <= i; j++) {
@@ -55,8 +57,6 @@ function insertionSortAsc(num) {
         // console.log('inside', num);
     }
 }
-// insertionSortAsc(num);
-// console.log(num);
 
 function insertionSortDesc(num) {
     for (var i = 0; i < num.length; i++) {
